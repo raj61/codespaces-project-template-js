@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://raj61.github.io/codespaces-teaching-template-js#readme",
+  "homepage": "http://raj61.github.io/codespaces-teaching-template-js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://raj61.github.io/codespaces-teaching-template-js#readme'",
+    "build-gh": "parcel build --public-url 'http://raj61.github.io/codespaces-teaching-template-js'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
